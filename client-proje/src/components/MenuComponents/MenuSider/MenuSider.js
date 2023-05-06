@@ -10,6 +10,7 @@ import {
 import { useLocation, useNavigate } from "react-router-dom";
 import "./MenuSider.scss";
 
+
 export const MenuSider = (props) => {
   const { Sider } = Layout;
   const navigate = useNavigate();
@@ -29,6 +30,8 @@ export const MenuSider = (props) => {
       subMenu: [
         { key: "clients/list",  icon: <TeamOutlined />, label: "Lista de clientes" },
         { key: "clients/new",  icon: <TeamOutlined/>, label: "Nuevo cliente" },
+        { key: "clients/delete",  icon: <TeamOutlined/>, label: "Eliminar cliente" },
+        { key: "clients/modificar",  icon: <TeamOutlined/>, label: "Modificar cliente" },
       ],
     },
     {
@@ -36,8 +39,12 @@ export const MenuSider = (props) => {
       icon: <AppstoreOutlined />,
       label: "Servicios",
       subMenu: [
-        { key: "services/list",  icon: <TeamOutlined />, label: "Listar trabajos" },
-        { key: "services/new",  icon: <TeamOutlined />, label: "Crear trabajo" },
+        { 
+          key: "services/list",  
+          icon: <TeamOutlined />, 
+          label: "Listar", 
+       
+        },
       ],
     },
     {
