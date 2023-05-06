@@ -77,7 +77,7 @@ export const MenuSider = (props) => {
             : "ant-menu-item"
         }
       >
-        {label}
+        {label} 
       </Menu.Item>
     );
   };
