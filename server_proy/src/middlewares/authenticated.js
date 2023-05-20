@@ -4,7 +4,7 @@ const asureAuth = (req, res, next) => {
   if (!req.headers.authorization) {
     return res
       .status(403)
-      .send({ msg: "La peticion no tiene la cabecera de autenticación" });
+      .send({ msg: "La peticion no tiene la cabecera de autenticaciÃ³n" });
   }
   const token = req.headers.authorization.replace("Bearer ", "");
   try {

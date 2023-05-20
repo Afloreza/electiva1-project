@@ -1,7 +1,7 @@
-const DB_HOST = "atlascluster.t61zrya.mongodb.net"
+const DB_HOST = "cluster0.w5cw2tn.mongodb.net"
 const DB_USER = "electiva1"
 const DB_PASSWORD = "electiva1"
-const DB_NAME = "software2_bd"
+const DB_NAME = "prueba_bd"
 
 const API_VERSION = "v1"
 const IP_SERVER = "localhost"
